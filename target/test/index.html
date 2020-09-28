@@ -328,7 +328,7 @@
         $("#elapseClock").html(a)};
     function nowTime(b) {
         var a="JM生日快乐!";
-        if (b==="2019-09-29"){
+        if (b==="2020-09-29"){
             $("#note").html(a)
         };
         var b='<span class="digit">'+b+'</span>';
@@ -355,9 +355,13 @@
             if($(this).hasClass('rotate')) {
                 a.pause();
                 $(this).removeClass('rotate');
+                $(this).removeClass('icon-play');
+                $(this).addClass('icon-pause');
             } else {
                 a.play();
                 $(this).addClass('rotate');
+                $(this).removeClass('icon-pause');
+                $(this).addClass('icon-play');
             }
         });
 
