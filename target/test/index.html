@@ -67,7 +67,7 @@
                 <audio id="main_audio" autoplay="autoplay" preload="auto" loop>
                     <source src="./audio/Reset.mp3" type="audio/mpeg" />
                 </audio>
-                <a class="c-white fs-12 icon-play rotate" id="btn-play" href="javascript:void(0);"></a>
+                <a class="c-white fs-12 icon-play" id="btn-play" href="javascript:void(0);"></a>
             </div>
             <div class="container hero-content">
                 <div class="row">
@@ -209,7 +209,7 @@
                     <div class="block-img">
                         <a href="http://img.zxgnz.com/images/20190804/156490542731052.jpg" class="venobox">
                             <div class="background-img">
-                                <img alt="" src="./picture/156490542731052.jpg">
+                                <img alt="" src="./picture/156490542579422.jpg">
                             </div>
                         </a>
                     </div>
@@ -218,7 +218,7 @@
                     <div class="block-img">
                         <a href="http://img.zxgnz.com/images/20190804/156490543096270.jpg" class="venobox">
                             <div class="background-img">
-                                <img alt="" src="./picture/156490543096270.jpg">
+                                <img alt="" src="./picture/156490542579422.jpg">
                             </div>
                         </a>
                     </div>
@@ -227,7 +227,7 @@
                     <div class="block-img">
                         <a href="http://img.zxgnz.com/images/20190804/156490543257636.jpg" class="venobox">
                             <div class="background-img">
-                                <img alt="" src="./picture/156490543257636.jpg">
+                                <img alt="" src="./picture/156490542579422.jpg">
                             </div>
                         </a>
                     </div>
@@ -236,7 +236,7 @@
                     <div class="block-img">
                         <a href="http://img.zxgnz.com/images/20190804/156490543485467.jpg" class="venobox">
                             <div class="background-img">
-                                <img alt="" src="./picture/156490543485467.jpg">
+                                <img alt="" src="./picture/156490542579422.jpg">
                             </div>
                         </a>
                     </div>
@@ -245,7 +245,7 @@
                     <div class="block-img">
                         <a href="http://img.zxgnz.com/images/20190804/156490543662231.jpg" class="venobox">
                             <div class="background-img">
-                                <img alt="" src="./picture/156490543662231.jpg">
+                                <img alt="" src="./picture/156490542579422.jpg">
                             </div>
                         </a>
                     </div>
@@ -355,13 +355,13 @@
             if($(this).hasClass('rotate')) {
                 a.pause();
                 $(this).removeClass('rotate');
-                $(this).removeClass('icon-play');
-                $(this).addClass('icon-pause');
+                $(this).addClass('icon-play');
+                $(this).removeClass('icon-pause');
             } else {
                 a.play();
                 $(this).addClass('rotate');
-                $(this).removeClass('icon-pause');
-                $(this).addClass('icon-play');
+                $(this).addClass('icon-pause');
+                $(this).removeClass('icon-play');
             }
         });
 
